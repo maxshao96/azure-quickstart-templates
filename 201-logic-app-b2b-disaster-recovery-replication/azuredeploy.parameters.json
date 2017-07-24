@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "AS2_DR_LogicApp_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "Edifact_DR_LogicApp_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "X12_DR_LogicApp_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "DR_LogicApp_Location": {
-      "value": "changeme"
+      "value": "[resourceGroup().Location]"
     },
     "Primary_IntegrationAccountResourceGroup": {
       "value": "changeme"
@@ -24,40 +24,40 @@
       "value": "changeme"
     },
     "AS2_Primary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "AS2_Primary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "AS2_Secondary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "AS2_Secondary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "Edifact_Primary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "Edifact_Primary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "Edifact_Secondary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "Edifact_Secondary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "X12_Primary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "X12_Primary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "X12_Secondary_Connection_Name": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     },
     "X12_Secondary_Connection_DisplayName": {
-      "value": "changeme"
+      "value": "GEN-UNIQUE"
     }
   }
 }
